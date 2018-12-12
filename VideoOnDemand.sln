@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoOnDemand.UI", "VideoOnDemand.UI\VideoOnDemand.UI.csproj", "{B37D96AA-B345-494E-8D2D-799E1BA7A091}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoOnDemand.Data", "VideoOnDemand.Data\VideoOnDemand.Data.csproj", "{265829B0-EF5E-4AD8-9E1B-BCF18B664DEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B37D96AA-B345-494E-8D2D-799E1BA7A091}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B37D96AA-B345-494E-8D2D-799E1BA7A091}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B37D96AA-B345-494E-8D2D-799E1BA7A091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265829B0-EF5E-4AD8-9E1B-BCF18B664DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265829B0-EF5E-4AD8-9E1B-BCF18B664DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265829B0-EF5E-4AD8-9E1B-BCF18B664DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265829B0-EF5E-4AD8-9E1B-BCF18B664DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
