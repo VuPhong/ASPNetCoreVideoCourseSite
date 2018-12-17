@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using  VideoOnDemand.Data.Data;
 using VideoOnDemand.UI.Models;
 using VideoOnDemand.UI.Services;
+using VideoOnDemand.Data.Data.Entities;
 
 namespace VideoOnDemand.UI
 {

@@ -4,14 +4,24 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
 using VideoOnDemand.UI.Models;
+using VideoOnDemand.Data.Data.Entities;
 
 namespace VideoOnDemand.UI.Controllers
 {
     public class HomeController : Controller
     {
+        private SignInManager<User> _signInManager;
+        public HomeController(SignInManager<User> signInManager)
+        {
+            _signInManager = signInManager;
+        }
         public IActionResult Index()
         {
+            if (!_signInManager.IsSignedIn(User))
+                return RedirectToAction("Login", "Account");
+
             return View();
         }
 
