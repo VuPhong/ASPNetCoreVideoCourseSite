@@ -5,6 +5,10 @@
 .navbar-brand {
     height: 70px;
 }
+.navbar-nav {
+    margin-top:10px;
+    margin-bottom:10px;
+}
 .logo {
     width:40px;
 }
