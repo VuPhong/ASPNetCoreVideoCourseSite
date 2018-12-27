@@ -71,21 +71,21 @@ namespace VideoOnDemand.UI.Repositories
             },
             new Course {
                 Id = 3, InstructorId = 2,
-                MarqueeImageUrl = "/images/laptop.jpg",
-                ImageUrl = "/images/course3.jpg", Title = "MVC 5 For Beginners",
+                MarqueeImageUrl = "/images/laptop.png",
+                ImageUrl = "/images/course3.png", Title = "MVC 5 For Beginners",
                 Description = "Course 3 Description: A very very long description."
             }
         };
         List<UserCourse> _userCourses = new List<UserCourse>
         {
             new UserCourse {
-                UserId = "4ad684f8-bb70-4968-85f8-458aa7dc19a3",
+                UserId = "1ea68376-d6a3-4139-bc95-acbd85169582",
                 CourseId = 1 },
             new UserCourse {
                 UserId = "00000000-0000-0000-0000-000000000000",
                 CourseId = 2 },
             new UserCourse {
-                UserId = "4ad684f8-bb70-4968-85f8-458aa7dc19a3",
+                UserId = "1ea68376-d6a3-4139-bc95-acbd85169582",
                 CourseId = 3 },
             new UserCourse {
                 UserId = "00000000-0000-0000-0000-000000000000",
