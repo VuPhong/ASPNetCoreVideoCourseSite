@@ -59,19 +59,19 @@ namespace VideoOnDemand.UI.Repositories
         List<Course> _courses = new List<Course> {
             new Course {
                 Id = 1, InstructorId = 1,
-                MarqueeImageUrl = "/images/laptop.jpg",
+                MarqueeImageUrl = "/images/marquee.jpg",
                 ImageUrl = "/images/course.jpg", Title = "C# For Beginners",
                 Description = "Course 1 Description: A very very long description."
             },
             new Course {
                 Id = 2, InstructorId = 1,
-                MarqueeImageUrl = "/images/laptop.jpg",
+                MarqueeImageUrl = "/images/marquee.jpg",
                 ImageUrl = "/images/course2.jpg", Title = "Programming C#",
                 Description = "Course 2 Description: A very very long description."
             },
             new Course {
                 Id = 3, InstructorId = 2,
-                MarqueeImageUrl = "/images/laptop.png",
+                MarqueeImageUrl = "/images/marquee.jpg",
                 ImageUrl = "/images/course3.png", Title = "MVC 5 For Beginners",
                 Description = "Course 3 Description: A very very long description."
             }
@@ -79,13 +79,13 @@ namespace VideoOnDemand.UI.Repositories
         List<UserCourse> _userCourses = new List<UserCourse>
         {
             new UserCourse {
-                UserId = "1ea68376-d6a3-4139-bc95-acbd85169582",
+                UserId = "0d558781-5032-46bf-b8c9-fb100e8f1b2f",
                 CourseId = 1 },
             new UserCourse {
                 UserId = "00000000-0000-0000-0000-000000000000",
                 CourseId = 2 },
             new UserCourse {
-                UserId = "1ea68376-d6a3-4139-bc95-acbd85169582",
+                UserId = "0d558781-5032-46bf-b8c9-fb100e8f1b2f",
                 CourseId = 3 },
             new UserCourse {
                 UserId = "00000000-0000-0000-0000-000000000000",
@@ -112,31 +112,31 @@ Url = "https://1drv.ms/b/s!AuD5OaH0ExAwn48rX9TZZ3kAOX6Peg" }
         List<Instructor> _instructors = new List<Instructor>
 {
 new Instructor{ Id = 1, Name = "John Doe",
-Thumbnail = "/images/Ice-Age-Scrat-icon.png",
-Description = "Lorem ipsum dolor sit amet, consectetur elit."
+Thumbnail = "/images/male-teacher.jpg",
+Description = "Anime male teacher."
 },
 new Instructor{ Id = 2, Name = "Jane Doe",
-Thumbnail = "/images/Ice-Age-Scrat-icon.png",
-Description = "Lorem ipsum dolor sit, consectetur adipiscing."
+Thumbnail = "/images/female-teacher.jpg",
+Description = "Anime female teacher."
 }
 };
         List<Video> _videos = new List<Video>
 {
 new Video { Id = 1, ModuleId = 1, CourseId = 1, Position = 1,
 Title = "Video 1 Title", Description = "Video 1 Description: A very very long description.", Duration = 50,
-Thumbnail = "/images/video1.jpg", Url = "http://some_url/manifest"
+Thumbnail = "/images/video.jpg", Url = "http://some_url/manifest"
 },
 new Video { Id = 2, ModuleId = 1, CourseId = 1, Position = 2,
 Title = "Video 2 Title", Description = "Video 2 Description: A very very long description.", Duration = 45,
-Thumbnail = "/images/video2.jpg", Url = "http://some_url/manifest"
+Thumbnail = "/images/video.jpg", Url = "http://some_url/manifest"
 },
 new Video { Id = 3, ModuleId = 3, CourseId = 2, Position = 1,
 Title = "Video 3 Title", Description = "Video 3 Description: A very very long description.", Duration = 41,
-Thumbnail = "/images/video3.jpg", Url = "http://some_url/manifest"
+Thumbnail = "/images/video.jpg", Url = "http://some_url/manifest"
 },
 new Video { Id = 4, ModuleId = 2, CourseId = 1, Position = 1,
 Title = "Video 4 Title", Description = "Video 4 Description: A very very long description.", Duration = 42,
-Thumbnail = "/images/video4.jpg", Url = "http://some_url/manifest"
+Thumbnail = "/images/video.jpg", Url = "http://some_url/manifest"
 }
 };
         #endregion

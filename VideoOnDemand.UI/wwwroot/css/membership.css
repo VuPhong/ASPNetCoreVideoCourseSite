@@ -43,3 +43,7 @@ body {
             background-color: #0577f0;
             border-color: #0577f0;
         }
+
+.membership h1, .membership h4 {
+    color: #666c74;
+}
